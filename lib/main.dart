@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsiveness_try/responsive2.dart';
 import 'package:responsiveness_try/responsive_screen.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
-      home: const ResponsiveScreen(),
+      home: const Responsive2(),
     );
   }
 }
